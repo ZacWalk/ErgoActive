@@ -225,7 +225,7 @@ namespace Frames
 
 		static HCURSOR GetCursorLink()
 		{
-			static HCURSOR hCursorLink = ::CreateCursor(ATL::_AtlBaseModule.GetModuleInstance(), _AtlHyperLink_CursorData.xHotSpot, _AtlHyperLink_CursorData.yHotSpot, _AtlHyperLink_CursorData.cxWidth, _AtlHyperLink_CursorData.cyHeight, _AtlHyperLink_CursorData.arrANDPlane, _AtlHyperLink_CursorData.arrXORPlane);
+			static HCURSOR hCursorLink = LoadCursor(NULL, IDC_HAND);
 			return hCursorLink;
 		}
 

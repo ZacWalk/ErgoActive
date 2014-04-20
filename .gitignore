@@ -1,21 +1,22 @@
-# Compiled Object files
-*.slo
+*.a
+*.app
+*.dll
+*.dylib
+*.exe
+*.la
+*.lai
+*.lib
 *.lo
 *.o
 *.obj
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
 *.out
-*.app
+*.slo
+*.so
+/*.opensdf
+/*.sdf
+/*.suo
+/Exe/*.exp
+/Exe/*.ilk
+/Exe/*.pdb
+/intermediate/*
+/ipch/ergoactive-a038f5af/*.ipch
